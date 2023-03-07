@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+.first-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #19232d;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(/public/image/element-1.png);
+}
+
+.first-section nav {
+  width: 100%;
+  height: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-section nav .image {
+  width: 28%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.first-section nav .image img {
+  margin-left: 40px;
+}
+
+.first-section nav ul {
+  margin-bottom: 0;
+  width: 72%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.first-section nav ul li {
+  cursor: pointer;
+  list-style: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+}
+
+.first-section nav ul button {
+  padding: 12px 35px;
+  color: #19232d;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #dcbb87;
+  border-radius: 999px;
+  background-color: #dcbb87;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.first-section nav ul button:hover {
+  color: #dcbb87;
+  background-color: transparent;
+}
+
+.first-section nav ul button:hover i {
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+}
+
+.first-section nav ul button i {
+  margin-right: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.first-section .left {
+  width: 90%;
+  height: 100%;
+  padding: 80px 0px 0px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.first-section .left h1 {
+  color: #dcbb87;
+  line-height: 1.5em;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Mulish", sans-serif;
+}
+
+.first-section .left h1 span {
+  color: white;
+}
+
+.first-section .left h2 {
+  color: white;
+  margin-bottom: 25px;
+  line-height: 1.3em;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.first-section .left h3 {
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.7em;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
+}
+
+.first-section .left .last {
+  width: 95%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.first-section .left .last button {
+  color: #dcbb87;
+  background-color: transparent;
+  border: 1px solid #dcbb87;
+  padding: 12px 25px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.5em;
+}
+
+.first-section .left .last button i {
+  margin-right: 2px;
+}
+
+.first-section .left .last .buttn {
+  color: white;
+  padding: 12px 25px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background-color: transparent;
+  font-weight: 500;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+}
+
+.first-section .right {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.first-section .right img {
+  width: 80%;
+}
+
+.second-section {
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/public/image/3-bg.png);
+}
+
+.second-section .first {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(3%, rgba(25, 35, 45, 0.82)), to(transparent)), url(/public/image/jet.png);
+  background-image: linear-gradient(360deg, rgba(25, 35, 45, 0.82) 3%, transparent 100%), url(/public/image/jet.png);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-section .first .text {
+  width: 70%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-section .first .text a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  line-height: 1.3em;
+  margin-bottom: 15px;
+}
+
+.second-section .first .text h1 {
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.7em;
+  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+}
+
+.second-section .first .text button {
+  color: #dcbb87;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.second-section .first .text button i {
+  margin-right: 5px;
+}
+
+.second-section .second {
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(-272deg, #19232d 15%, rgba(25, 25, 25, 0) 100%), url(/public/image/plane2.png);
+  background-color: #0b1b2ac9;
+}
+
+.third-section {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(-272deg, #19232d 15%, rgba(25, 25, 25, 0) 100%), url(/public/image/bg-1.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section .text {
+  padding: 0px 50px 100px 50px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section .text h1 {
+  color: #dcbb87;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Mulish', sans-serif;
+}
+
+.third-section .text h1 span {
+  color: white;
+}
+
+.third-section .text h2 {
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+
+.third-section .text h3 {
+  color: white;
+  line-height: 1.7em;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Mulish', sans-serif;
+}
+
+.third-section .text .text-bg {
+  width: 74%;
+  height: 15vh;
+  margin-top: 30px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  background-color: white;
+  background-image: url(/public/image/3-text-bg.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.third-section .text .text-bg::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 8px;
+  height: 80px;
+  background-color: #dcbb87;
+  border-radius: 60px;
+}
+
+.third-section .text .text-bg .left {
+  width: 55%;
+  height: 100%;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.third-section .text .text-bg .left h3 {
+  color: #19232d;
+  line-height: 1em;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+
+.third-section .text .text-bg .left a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #19232d;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Mulish', sans-serif;
+}
+
+.third-section .text .text-bg button {
+  color: #19232d;
+  padding: 12px 28px;
+  background-color: #dcbb87;
+  border: 1px solid #dcbb87;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Mulish", sans-serif;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.third-section .text .text-bg button:hover {
+  color: #dcbb87;
+  background-color: transparent;
+}
+
+.third-section .text .text-bg button:hover i {
+  color: #dcbb87;
+}
+
+.third-section .text .text-bg button i {
+  color: #19232d;
+  font-size: 14px;
+  margin-right: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
